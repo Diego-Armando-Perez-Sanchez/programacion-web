@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid px-3 px-md-5">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/logo_dos.png" alt="Logo UDLA" height="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre_semillero.html">Sobre el Semillero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./equipo.html">Equipos de Trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resultados.html">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos Académicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galería de Imágenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main class="contacto-principal">
+        <section class="contacto-portada animate__animated animate__fadeInDown">
+            <div class="texto-portada">
+                <p class="etiqueta-portada">Conecta con INNOVATEC</p>
+                <h1>Hablemos de investigación e innovación </h1>
+                <p>
+                    Si deseas participar en el semillero o colaborar en proyectos,
+                    envianos tu mensaje y te responderemos lo mas pronto.
+                </p>
+            </div>
+        </section>
+
+        <section class="distribucion-contacto" aria-label="Formulario e informacion de contacto">
+            <article class="tarjeta-formulario animate__animated animate__backInLeft">
+                <h2>Formulario de Contacto</h2>
+                <p>Completa los campos y envia tu mensaje.</p>
+
+                <form action="#" method="post" class="formulario-contacto">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" placeholder="tucorreo@udla.edu.co" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="boton-enviar">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar mensaje
+                    </button>
+                </form>
+            </article>
+
+            <aside class="tarjeta-informacion animate__animated animate__backInRight" aria-label="Informacion del semillero">
+                <h2>Informacion del Semillero</h2>
+
+                <div class="item-info">
+                    <div class="caja-icono"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <h3>Correo institucional</h3>
+                        <a href="mailto:diegoar.perez@udla.edu.co">diegoar.perez@udla.edu.co</a>
+                    </div>
+                </div>
+
+                <div class="item-info">
+                    <div class="caja-icono"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h3>Ubicacion</h3>
+                        <p>Universidad de la Amazonia, Bloque #7, Florencia - Caquetá</p>
+                    </div>
+                </div>
+
+                <div class="item-info redes">
+                    <div class="caja-icono"><i class="fa-solid fa-share-nodes"></i></div>
+                    <div>
+                        <h3>Redes sociales</h3>
+                        <div class="enlaces-sociales">
+                            <a href="https://www.instagram.com/uniamazonia/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/uniamazonia.edu.co" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.tiktok.com/@uniamazonia" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://www.youtube.com/c/uamazonia" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="pie-sitio">
+        <div class="pie-cuadricula">
+            <div class="pie-marca">
+                <h3>Semillero INNOVATEC</h3>
+                <p>Investigacion, tecnologia e innovacion con impacto <br>academico y social.</p>
+            </div>
+            <div class="pie-enlaces">
+                <span class="pie-titulo">Navegacion</span>
+                <ul>
+                    <li><a href="./sobre_semillero.html">Sobre el Semillero</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./productos.html">Productos Academicos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="pie-contacto">
+                <span class="pie-titulo">Contacto</span>
+                <p>diegoar.perez@udla.edu.co</p>
+                <p>Florencia - Caqueta</p>
+            </div>
+        </div>
+        <div class="pie-inferior">
+            <p class="pie-copia">2026 Semillero INNOVATEC - Universidad de la Amazonia.</p>
+        </div>
+    </footer>
+
+    <a class="boton-soporte-flotante" href="https://wa.me/573204306019?text=Hola%2C%20necesito%20atencion%20del%20semillero" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-headset" style="color: rgb(255, 255, 255);"></i></a>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

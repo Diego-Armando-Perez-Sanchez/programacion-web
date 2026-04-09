@@ -37,6 +37,9 @@ header::after {
 .navbar .container-fluid {
     position: relative;
     min-height: 72px;
+    --espaciado-lateral-navbar: 1.25rem;
+    padding-left: var(--espaciado-lateral-navbar);
+    padding-right: var(--espaciado-lateral-navbar);
 }
 
 .navbar-brand img {
@@ -142,7 +145,7 @@ header::after {
 
     .navbar-brand {
         position: absolute;
-        left: 0;
+        left: var(--espaciado-lateral-navbar);
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
